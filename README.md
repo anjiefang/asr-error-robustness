@@ -2,8 +2,8 @@
 
 ## Description
 
-This dataset contains data used in our paper [1]. We used a data generation pipeline to generate an ASR dataset with ASR errors given its original reference dataset. 
-The released dataset contains four parts: 1) SST, 2) TQ, 3) SQuAD (~8.8k samples) and 4) SUBJ (~5.8k samples)
+This dataset contains data used in [1]. We propose a data generation pipeline to generate an ASR dataset with ASR errors given its original reference dataset. 
+The released dataset contains four parts: 1) SST, 2) TQ, 3) SQuAD (~8.8k samples) and 4) SUBJ (~5.8k samples).
 
 
 ## License
