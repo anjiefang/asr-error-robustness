@@ -13,6 +13,15 @@ The released modification version is obtained by injecting ASR errors into the o
 (see [1]). 
 We appreciate the authors of the four original public datasets.
 
+## How to Download
+The dataset is stored at a public Amazon S3 bucket: `asr-error-robustness`. See more in [Open Data on AWS](https://registry.opendata.aws/asr-error-robustness/). 
+
+You will need to install [AWS Command Line Interface](https://aws.amazon.com/cli/) to access the dataset, e.g. to download the dataset, you can use:
+
+```
+aws s3 cp s3://asr-error-robustness ~/ --recursive
+```
+
 ## Reference
 
 1. [Using Phoneme Representations to Build Predictive Models Robust to ASR Errors](https://www.amazon.science/publications/using-phoneme-representations-to-build-predictive-models-robust-to-asr-errors). 2020. Fang et al. In Proceedings of SIGIR.
