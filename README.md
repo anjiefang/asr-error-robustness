@@ -19,7 +19,7 @@ The dataset is stored at a public Amazon S3 bucket: `asr-error-robustness`. See 
 You will need to install [AWS Command Line Interface](https://aws.amazon.com/cli/) to access the dataset, e.g. to download the dataset, you can use:
 
 ```
-aws s3 cp s3://asr-error-robustness ~/ --recursive
+aws s3 cp s3://asr-error-robustness ./ --recursive --no-sign-request
 ```
 
 ## Reference
